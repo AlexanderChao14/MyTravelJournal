@@ -66,3 +66,100 @@ text in header_table class*/
 .header_table a:hover{
     color:black;
 }
+
+/*css for the subtitle portion*/
+.subtitle{
+    color: white;
+    font-size: 28pt;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+/*style the about page box*/
+.introbox{
+    background-color: #9aaab3;
+    border-radius: 10px 10px 10px 10px;
+    height: 120px;
+    width: 50%;
+    
+    padding-top: 20px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+/*style the text in the box*/
+.introbox p{
+    text-align: center;
+    font-size: 16pt;
+    color: white;
+    padding-left:10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+/*style for the gray box holding the table*/
+.tablebox{
+    float:left;
+    height: auto;
+    width: auto;
+    background-color:#9aaab3;
+    margin: 50px;
+    padding: 25px;
+    color:white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/*styling the caption in table*/
+.tablebox caption{
+    font-size: 22pt;
+    text-align: center;
+    text-decoration: underline;
+    color:White;
+    padding-bottom: 20px;
+}
+
+/*styling the table except for the caption*/
+.tablebox table, th, tr, td{
+    padding: 5px;
+    border: 3px solid #7ab0b9;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14pt;
+}
+
+/*padding and setting the cells to not wrap*/
+.tablebox th, tr, td{
+    padding: 10px;
+    white-space: nowrap;
+}
+
+/*Applying a "checker" background on the table*/
+.tablebox tr:nth-child(even) td:nth-child(odd){
+    background-color: #818f96;
+}
+.tablebox tr:nth-child(odd) td:nth-child(even){
+    background-color: #818f96;
+}
+.tablebox th:nth-child(even){
+    background-color: #818f96;
+}
+
+/*underline the heading of each column*/
+.tablebox th{
+    text-decoration: underline;
+}
+
+/*positioning and sizing the plane image*/
+#planeimg{
+    background-color: #9aaab3;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 75px;
+    margin-top: 50px;
+    padding: 20px;
+    float: right;
+    width: 400px;
+    height: 300px;
+}
