@@ -164,6 +164,7 @@ text in header_table class*/
     height: 300px;
 }
 
+/*determining the content area at the bottom of page*/
 .content_area{
     height: 550px;
     width: 100%;
@@ -171,12 +172,15 @@ text in header_table class*/
     text-align: center;
     font-size: 12pt;
 }
+
+/*styling the title of each column*/
 .content_title{
     font-size: 20pt; 
     text-decoration: underline;
     padding-top: 25px;
 }
 
+/*positon, size and style of column 1*/
 .col1{
     float: left;
     height: 450px;
@@ -189,6 +193,7 @@ text in header_table class*/
     margin-bottom: 50px;
 }
 
+/*positon, size and style of column 2*/
 .col2{
     float: left;
     height: 450px;
@@ -198,6 +203,7 @@ text in header_table class*/
     margin: 50px;
 }
 
+/*positon, size and style of column 3*/
 .col3{
     float:left;
     height: 450px;
@@ -207,23 +213,26 @@ text in header_table class*/
     margin: 50px;
 }
 
-
+/*padding the text in columns*/
 .content_text p{
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
+/*sizing of larb image*/
 #larb{
     width: 250px;
     height: 200px;
 }
 
+/*sizing of temple image*/
 #Wat_Phra_Kaew{
     width: 300px;
     height: 200px;
 }
 
+/*sizing of night market image*/
 #Night_Market{
     width: 300px;
     height: 180px;
