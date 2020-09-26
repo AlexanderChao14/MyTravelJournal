@@ -237,3 +237,39 @@ text in header_table class*/
     width: 300px;
     height: 180px;
 }
+
+/*sizing of chocolate image*/
+#chocolate{
+    width: 280px;
+    height: 180px;
+}
+
+/*sizing of eiffel tower image*/
+#eiffel{
+    width: 100px;
+    height: 170px;
+}
+
+/*sizing of louvre image*/
+#louvre{
+    width: 280px;
+    height: 160px;
+}
+
+/*sizing of burger image*/
+#burger{
+    width: 280px;
+    height: 200px;
+}
+
+/*sizing of disneyland image*/
+#disney{
+    width: 280px;
+    height: 200px;
+}
+
+/*sizing of hollywood image*/
+#hollywood{
+    width: 280px;
+    height: 200px;
+}
